@@ -1,0 +1,262 @@
+{
+    "train_test_split": {
+        "2025_2025": {
+            "train_start_date": "2025-01-01",
+            "valid_start_date": "2025-07-01",
+            "test_start_date": "2026-01-01",
+            "test_end_date": "2027-01-01"
+        },
+        "2024_2024": {
+            "train_start_date": "2024-01-01",
+            "valid_start_date": "2024-07-01",
+            "test_start_date": "2025-01-01",
+            "test_end_date": "2026-01-01"
+        },
+        "2023_2023": {
+            "train_start_date": "2023-01-01",
+            "valid_start_date": "2023-07-01",
+            "test_start_date": "2024-01-01",
+            "test_end_date": "2025-01-01"
+        },
+        "2022_2022": {
+            "train_start_date": "2022-01-01",
+            "valid_start_date": "2022-07-01",
+            "test_start_date": "2023-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2021_2021": {
+            "train_start_date": "2021-01-01",
+            "valid_start_date": "2021-07-01",
+            "test_start_date": "2022-01-01",
+            "test_end_date": "2023-01-01"
+        },
+        "2020_2020": {
+            "train_start_date": "2020-01-01",
+            "valid_start_date": "2020-07-01",
+            "test_start_date": "2021-01-01",
+            "test_end_date": "2022-01-01"
+        },
+
+        "2024_2025": {
+            "train_start_date": "2024-01-01",
+            "valid_start_date": "2025-01-01",
+            "test_start_date": "2026-01-01",
+            "test_end_date": "2027-01-01"
+        },
+        "2023_2024": {
+            "train_start_date": "2023-01-01",
+            "valid_start_date": "2024-01-01",
+            "test_start_date": "2025-01-01",
+            "test_end_date": "2026-01-01"
+        },
+        "2022_2023": {
+            "train_start_date": "2022-01-01",
+            "valid_start_date": "2023-01-01",
+            "test_start_date": "2024-01-01",
+            "test_end_date": "2025-01-01"
+        },
+        "2021_2022": {
+            "train_start_date": "2021-01-01",
+            "valid_start_date": "2022-01-01",
+            "test_start_date": "2023-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2020_2021": {
+            "train_start_date": "2020-01-01",
+            "valid_start_date": "2021-01-01",
+            "test_start_date": "2022-01-01",
+            "test_end_date": "2023-01-01"
+        },
+        "2019_2020": {
+            "train_start_date": "2019-01-01",
+            "valid_start_date": "2020-01-01",
+            "test_start_date": "2021-01-01",
+            "test_end_date": "2022-01-01"
+        },
+
+        "2023_2025": {
+            "train_start_date": "2023-01-01",
+            "valid_start_date": "2025-01-01",
+            "test_start_date": "2026-01-01",
+            "test_end_date": "2027-01-01"
+        },
+        "2022_2024": {
+            "train_start_date": "2022-01-01",
+            "valid_start_date": "2024-01-01",
+            "test_start_date": "2025-01-01",
+            "test_end_date": "2026-01-01"
+        },
+        "2021_2023": {
+            "train_start_date": "2021-01-01",
+            "valid_start_date": "2023-01-01",
+            "test_start_date": "2024-01-01",
+            "test_end_date": "2025-01-01"
+        },
+        "2020_2022": {
+            "train_start_date": "2020-01-01",
+            "valid_start_date": "2022-01-01",
+            "test_start_date": "2023-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2019_2021": {
+            "train_start_date": "2019-01-01",
+            "valid_start_date": "2021-01-01",
+            "test_start_date": "2022-01-01",
+            "test_end_date": "2023-01-01"
+        },
+        "2018_2020": {
+            "train_start_date": "2018-01-01",
+            "valid_start_date": "2020-01-01",
+            "test_start_date": "2021-01-01",
+            "test_end_date": "2022-01-01"
+        },
+        "2017_2019": {
+            "train_start_date": "2017-01-01",
+            "valid_start_date": "2019-01-01",
+            "test_start_date": "2020-01-01",
+            "test_end_date": "2021-01-01"
+        },
+        "2016_2018": {
+            "train_start_date": "2016-01-01",
+            "valid_start_date": "2018-01-01",
+            "test_start_date": "2019-01-01",
+            "test_end_date": "2020-01-01"
+        },
+        "2015_2017": {
+            "train_start_date": "2015-01-01",
+            "valid_start_date": "2017-01-01",
+            "test_start_date": "2018-01-01",
+            "test_end_date": "2019-01-01"
+        },
+
+        "2022_2025": {
+            "train_start_date": "2022-01-01",
+            "valid_start_date": "2025-01-01",
+            "test_start_date": "2026-01-01",
+            "test_end_date": "2027-01-01"
+        },
+        "2021_2024": {
+            "train_start_date": "2021-01-01",
+            "valid_start_date": "2024-01-01",
+            "test_start_date": "2025-01-01",
+            "test_end_date": "2026-01-01"
+        },
+        "2020_2023": {
+            "train_start_date": "2020-01-01",
+            "valid_start_date": "2023-01-01",
+            "test_start_date": "2024-01-01",
+            "test_end_date": "2025-01-01"
+        },
+        "2019_2022": {
+            "train_start_date": "2019-01-01",
+            "valid_start_date": "2022-01-01",
+            "test_start_date": "2023-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2018_2021": {
+            "train_start_date": "2018-01-01",
+            "valid_start_date": "2021-01-01",
+            "test_start_date": "2022-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2017_2020": {
+            "train_start_date": "2017-01-01",
+            "valid_start_date": "2020-01-01",
+            "test_start_date": "2021-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2016_2019": {
+            "train_start_date": "2016-01-01",
+            "valid_start_date": "2019-01-01",
+            "test_start_date": "2020-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2015_2018": {
+            "train_start_date": "2015-01-01",
+            "valid_start_date": "2018-01-01",
+            "test_start_date": "2019-01-01",
+            "test_end_date": "2024-01-01"
+        },
+
+        "2021_2025": {
+            "train_start_date": "2021-01-01",
+            "valid_start_date": "2025-01-01",
+            "test_start_date": "2026-01-01",
+            "test_end_date": "2027-01-01"
+        },
+        "2020_2024": {
+            "train_start_date": "2020-01-01",
+            "valid_start_date": "2024-01-01",
+            "test_start_date": "2025-01-01",
+            "test_end_date": "2026-01-01"
+        },
+        "2019_2023": {
+            "train_start_date": "2019-01-01",
+            "valid_start_date": "2023-01-01",
+            "test_start_date": "2024-01-01",
+            "test_end_date": "2025-01-01"
+        },
+        "2018_2022": {
+            "train_start_date": "2018-01-01",
+            "valid_start_date": "2022-01-01",
+            "test_start_date": "2023-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2017_2021": {
+            "train_start_date": "2017-01-01",
+            "valid_start_date": "2021-01-01",
+            "test_start_date": "2022-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2016_2020": {
+            "train_start_date": "2016-01-01",
+            "valid_start_date": "2020-01-01",
+            "test_start_date": "2021-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2015_2019": {
+            "train_start_date": "2015-01-01",
+            "valid_start_date": "2019-01-01",
+            "test_start_date": "2020-01-01",
+            "test_end_date": "2024-01-01"
+        },
+        "2017test": {
+            "train_start_date": "2014-01-01",
+            "valid_start_date": "2016-01-01",
+            "test_start_date": "2017-01-01",
+            "test_end_date": "2018-01-01"
+        },
+        "low_mismatch": {
+            "train_start_date": "2017-01-01",
+            "valid_start_date": "2019-01-01",
+            "test_start_date": "2020-01-01",
+            "test_end_date": "2021-01-01"
+        },
+        "low_mismatch_long": { 
+            "train_start_date": "2015-01-01",
+            "valid_start_date": "2019-01-01",
+            "test_start_date": "2020-01-01",
+            "test_end_date": "2021-01-01"
+        },
+        "high_mismatch": {
+            "train_start_date": "2018-01-01",
+            "valid_start_date": "2020-01-01",
+            "test_start_date": "2021-01-01",
+            "test_end_date": "2022-01-01"
+        }
+    },
+    "prediction_setting": {
+        "short_term": {
+            "seq_len": 60,
+            "pred_len": 30,
+            "label_len": 15
+        },
+        "long_term": {
+            "seq_len": 120,
+            "pred_len": 60,
+            "label_len": 30
+        }
+    },
+    "stock_category": "Top50",
+    "target": "etl:adj_close"
+}
