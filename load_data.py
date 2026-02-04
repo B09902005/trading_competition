@@ -36,7 +36,7 @@ if __name__ == "__main__":
     target = list(set(target))
     # 下載最新訓練資料 可見 data/
     login('ntSS3778pZi2FfkeYxXP0p+S0iI4AggkcphAUxh/lTVrWqT2FreKQsDkTA92CM7d#vip_m')
-    data.set_storage(data.FileStorage(path="finlab", use_cache=False))
+    #data.set_storage(data.FileStorage(path="finlab", use_cache=False))
     individual_daily_features_dictionary = {
         'etl': ['adj_close', 'adj_open', 'adj_high', 'adj_low'],
         'price': ['成交股數', '成交筆數', '成交金額'],
