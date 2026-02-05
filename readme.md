@@ -117,9 +117,24 @@ bash script/3_backtest.sh
 - 2_train_model.sh：results 資料夾，出現對應的設定參數的資料夾。資料夾內，test/whole_output.csv 裡面，會包含當天日期的預測。
 - 3_backtest.sh：output 資料夾，current_stock.csv，裡面，last_date 會顯示當天日期。
 
-觀察 output/current_stocks.csv，若出現 open_date 為當天日期的股票，表示該策略預計於下一個交易日推薦買下的股票。
+觀察 output/current_stocks.csv，若出現 open_date 為隔天日期的股票，表示該策略預計於下一個交易日推薦買下的股票，原則上會在隔天開盤時，花約總資產的 1%，已開盤價買入。以下是 csv 檔案裡面，比較重點的內容：
 
-觀察 output/trades.csv，若出現 close_date 為當天日期的股票，表示該策略預計於下一個交易日推薦賣出的股票。
+- symbol：股票的編號
+- open_date：買進日期
+- last_date：隔天日期（所以如果 open_date 跟 last_date 一樣，表示隔天推薦買下這隻股票）
+- open_price：買進價。原則上是會在開盤時用開盤價買進。
+- last_price：目前的價格
+- position_size：共幾股
+- current_value：現在這個倉位的價值。即 position_size * last_price。
+
+觀察 output/trades.csv，若出現 close_date 為隔天日期的股票，表示該策略預計於下一個交易日推薦賣出的股票。原則上會在隔天開盤時，將手中的該股票全數賣出。以下是 csv 檔案裡面，比較重點的內容：
+
+- symbol：股票的編號
+- open_date：買進日期
+- close_date：賣出日期（所以如果 close_date 是隔天，表示隔天要賣出這支股票）
+- open_price：買進價
+- close_price：賣出價
+- position_size：共幾股
 
 # 4. 檔案概述
 
