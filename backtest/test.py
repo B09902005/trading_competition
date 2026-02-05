@@ -62,7 +62,7 @@ def calculate_adx(df, period=14):
 
 # 把價格記錄下來，存進 filtered_df
 def get_filtered_df(Target):
-    data.set_storage(data.FileStorage(path="finlab", use_cache=False))
+    #data.set_storage(data.FileStorage(path="finlab", use_cache=False))
     adj_open = data.get('etl:adj_open')[Target]
     adj_close = data.get('etl:adj_close')[Target]
     open = data.get('price:開盤價')[Target]
