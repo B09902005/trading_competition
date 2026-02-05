@@ -256,5 +256,35 @@ if __name__ == "__main__":
     open_positions.to_csv("outputs/current_stocks.csv")
     returns = pd.DataFrame(result.returns)
     returns.to_csv("outputs/returns.csv")
+
+
+    # --- 處理買進清單 (來自現有持股的開倉紀錄) ---
+    buys = open_positions[['open_date', 'symbol', 'open_price', 'position_size']].copy()
+    buys.columns = ['date', 'symbol', 'price', 'quantity']
+    buys['action'] = 'BUY'
+    
+    buys2 = trades[['open_date', 'symbol', 'open_price', 'position_size']].copy()
+    buys2.columns = ['date', 'symbol', 'price', 'quantity']
+    buys2['action'] = 'BUY'
+
+    # --- 處理賣出清單 (來自交易紀錄的結案日期) ---
+    sells = trades[['close_date', 'symbol', 'close_price', 'position_size']].copy()
+    sells.columns = ['date', 'symbol', 'price', 'quantity']
+    sells['action'] = 'SELL'
+
+    # 2. 合併兩份清單
+    action_plan = pd.concat([buys, buys2, sells], ignore_index=True)
+
+    # 3. 轉換日期格式並排序
+    action_plan['date'] = pd.to_datetime(action_plan['date'])
+    action_plan = action_plan.sort_values(by='date', ascending=True)
+
+    # 4. 計算所需/預計收回金額 (估算值)
+    action_plan['total_cost_or_revenue'] = action_plan['price'] * action_plan['quantity']
+
+    # 5. 輸出 CSV
+    action_plan.to_csv('outputs/action_plan.csv', index=False, encoding='utf-8-sig')
+
+
     print("回測完成，輸出已經儲存至 outputs 資料夾")
 
