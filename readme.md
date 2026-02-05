@@ -117,6 +117,9 @@ bash script/3_backtest.sh
 - 2_train_model.sh：results 資料夾，出現對應的設定參數的資料夾。資料夾內，test/whole_output.csv 裡面，會包含當天日期的預測。
 - 3_backtest.sh：output 資料夾，current_stock.csv，裡面，last_date 會顯示當天日期。
 
+詳細的交易次序，可以參照 output/action_plan.csv，會直接包含每天要做的買賣行為。
+
+（若想看詳細數據，也可以看以下的兩個檔案：）
 觀察 output/current_stocks.csv，若出現 open_date 為隔天日期的股票，表示該策略預計於下一個交易日推薦買下的股票，原則上會在隔天開盤時，花約總資產的 1%，已開盤價買入。以下是 csv 檔案裡面，比較重點的內容：
 
 - symbol：股票的編號
