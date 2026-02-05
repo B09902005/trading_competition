@@ -1,6 +1,6 @@
 import argparse
 import os
-#os.environ["CUDA_VISIBLE_DEVICES"] = "6"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import torch
 from exp.exp_pct_prev import Exp_Pct_Prev
 from exp.exp_regression import Exp_Regression
